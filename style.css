@@ -1,0 +1,26 @@
+/* External CSS Style Sheet */
+
+.google-logo{
+    position: absolute;
+    top: 28%;
+    left: 50%;
+    transform: translate(-50%, -25%);
+}
+
+.search-bar{
+    /* This would position the search bar */
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 20px;
+}
+
+.search-bar input[type=text]{
+    /* Determines the visuals of the search bar */
+    width: 561px;
+    height: 44px;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 1px 40px 1px 52px;
+}
