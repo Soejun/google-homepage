@@ -23,4 +23,16 @@
     border-radius: 20px;
     font-size: 16px;
     padding: 1px 40px 1px 52px;
+    padding-inline-start: 52px;
+    outline: 0; /*This makes it so when you select the search bar the square box doesn't pop up */
+    border: none;
+    background:#fff;
+    box-shadow: 0 0 3pt 2pt lightgray;
+
+}
+
+.searchButton{
+    position: relative;
+    right: 250px;
+    bottom: 4px;
 }
